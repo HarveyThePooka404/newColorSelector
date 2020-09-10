@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display:flex;
+    flex-flow: column;
+    padding: 10px;
+}
+
+.outputBox {
+    display: flex;
+    flex-flow: row;
+}
+.wrapper_color {
+    display: flex;
+    flex-flow: column;
+    margin: 0.5em;
+}
+.inputBox {
+    margin-bottom: 200px;
+    display: flex;
+    flex-flow: column;
+}
+
+#inputColor {
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    border: none;
+}
+
+#inputMode {
+    width: 150px;
+}
+
+.palette {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.output {
+    width: 200px;
+    margin-top: 10px;
+}
